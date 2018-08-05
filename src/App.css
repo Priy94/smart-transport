@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background: url("./Images/backroundImage.jpg") center center;
+  font-family: 'Open Sans', sans-serif;
+  /* opacity: .8; */
+}
+#SearchBoxComp {
+  margin-top: 12%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#SearchTitle
+{
+  margin-bottom: 3%;
+}
