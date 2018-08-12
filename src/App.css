@@ -2,7 +2,7 @@
 
 body{
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background: url("./Images/backroundImage.jpg") center center;
   font-family: 'Open Sans', sans-serif;
   /* opacity: .8; */
@@ -15,4 +15,29 @@ body{
 #SearchTitle
 {
   margin-bottom: 3%;
+}
+#search-container{
+  position: relative;
+}
+
+#search-ul{
+  position: absolute;
+  background: white;
+  list-style-type: none;
+  padding: 15px 10px;
+  width: 100%;
+  border-radius: 5px;
+  top:39px;
+}
+
+#search-ul li{
+   padding: 10px;
+}
+
+#search-ul li:hover{
+  background-color: #ccc;
+}
+
+.hide{
+  display: none;
 }
